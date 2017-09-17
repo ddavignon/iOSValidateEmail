@@ -11,7 +11,7 @@ import UIKit
 
 public class ValidateEmailText: UITextField {
     // validate email text, not reinventing the wheel: http://multithreaded.stitchfix.com/blog/2016/11/02/email-validation-swift/
-    public func validateEmail(field: UITextField) -> String? {
+    public static func validateEmail(field: UITextField) -> String? {
         guard let trimmedText = field.text?.trimmingCharacters(in: .whitespacesAndNewlines) else {
             return nil
         }
