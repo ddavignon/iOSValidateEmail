@@ -16,7 +16,7 @@
 		8A010C647BECD2C3B04534D8B0E097B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		A56BE3863F40D339A2A87D89252E18AA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		CEBCB80627B1AD9D7726A05036B7BDFF /* Pods-iOSValidateEmail_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE026E82A364185A195BCB5D6EC5B8C9 /* Pods-iOSValidateEmail_Tests-dummy.m */; };
-		E9E58069DBB9A8026274336F1C431418 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D136EE3BB8EE5EDF5B1FBEF76FD6B03 /* ReplaceMe.swift */; };
+		DA3FBDC81F6EFE6300E536CC /* ValidateEmailText.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3FBDC71F6EFE6300E536CC /* ValidateEmailText.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,36 +30,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0097C45F9DB4F5795C872F2794F646EB /* Pods-iOSValidateEmail_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-iOSValidateEmail_Tests.modulemap"; sourceTree = "<group>"; };
+		0097C45F9DB4F5795C872F2794F646EB /* Pods-iOSValidateEmail_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-iOSValidateEmail_Tests.modulemap"; sourceTree = "<group>"; };
 		05D3F9B10F815917B5770ECD26C83E66 /* iOSValidateEmail.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iOSValidateEmail.xcconfig; sourceTree = "<group>"; };
 		107930D5D43C6738F9A4BFA08708B5B3 /* Pods-iOSValidateEmail_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOSValidateEmail_Example-resources.sh"; sourceTree = "<group>"; };
 		151673BD91DEDDF1B360B3F881753DE9 /* iOSValidateEmail-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOSValidateEmail-prefix.pch"; sourceTree = "<group>"; };
 		16A1DB777C1692CDF9E4BE4618F21EF6 /* Pods-iOSValidateEmail_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOSValidateEmail_Example-umbrella.h"; sourceTree = "<group>"; };
 		1AA8FFD90087F9766209DA00FFA83636 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		21DAF6FFD5DF321713F1AAD8D71E743B /* Pods-iOSValidateEmail_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSValidateEmail_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		2B35930B362086646FD314AA0DCB4631 /* Pods_iOSValidateEmail_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iOSValidateEmail_Example.framework; path = "Pods-iOSValidateEmail_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B35930B362086646FD314AA0DCB4631 /* Pods_iOSValidateEmail_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSValidateEmail_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		502D6DF694D99F6C9752646BDF1CDC3E /* Pods-iOSValidateEmail_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iOSValidateEmail_Tests-umbrella.h"; sourceTree = "<group>"; };
 		5334ECC925BCF05EEDD1F9CB05BB561F /* Pods-iOSValidateEmail_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iOSValidateEmail_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6B89DB2DE719B31173F272D2AAA121C4 /* iOSValidateEmail-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iOSValidateEmail-umbrella.h"; sourceTree = "<group>"; };
-		6FBFE71659F408795DDE5A1ECEF3925C /* iOSValidateEmail.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = iOSValidateEmail.framework; path = iOSValidateEmail.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FBFE71659F408795DDE5A1ECEF3925C /* iOSValidateEmail.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iOSValidateEmail.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ADA3499EA161B73EA552BA11657006F /* Pods-iOSValidateEmail_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOSValidateEmail_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		7CBA16E041871E93378C63B753C1FF80 /* Pods-iOSValidateEmail_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iOSValidateEmail_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		7D136EE3BB8EE5EDF5B1FBEF76FD6B03 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = iOSValidateEmail/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		7E01E3DBD24647DB25C541A792EC2617 /* Pods-iOSValidateEmail_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iOSValidateEmail_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		839C4D200920685030FA5548AEDB2816 /* Pods-iOSValidateEmail_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOSValidateEmail_Example-frameworks.sh"; sourceTree = "<group>"; };
 		890B3BC5DBE60A631162A6D4E817CAA4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9BC850B6517AEA56571EB998EBDA6262 /* iOSValidateEmail-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iOSValidateEmail-dummy.m"; sourceTree = "<group>"; };
 		9EE2E11AB80AA0B62ECCCD20EB184CAF /* Pods-iOSValidateEmail_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOSValidateEmail_Example-dummy.m"; sourceTree = "<group>"; };
-		A7C9143974B9F6E567B0DC877CC4C2F9 /* Pods_iOSValidateEmail_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_iOSValidateEmail_Tests.framework; path = "Pods-iOSValidateEmail_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7C9143974B9F6E567B0DC877CC4C2F9 /* Pods_iOSValidateEmail_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSValidateEmail_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B2465131B0028EE72AC886A792FE4127 /* Pods-iOSValidateEmail_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSValidateEmail_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BCA598A4386368572A0E98C9AAFF2FC9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C392AE30BD6F5377510A0614D55FBEAF /* iOSValidateEmail.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = iOSValidateEmail.modulemap; sourceTree = "<group>"; };
+		C392AE30BD6F5377510A0614D55FBEAF /* iOSValidateEmail.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = iOSValidateEmail.modulemap; sourceTree = "<group>"; };
 		C8CFC20349AA2334ECA27D26FD3EE077 /* Pods-iOSValidateEmail_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSValidateEmail_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CE026E82A364185A195BCB5D6EC5B8C9 /* Pods-iOSValidateEmail_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iOSValidateEmail_Tests-dummy.m"; sourceTree = "<group>"; };
+		DA3FBDC71F6EFE6300E536CC /* ValidateEmailText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ValidateEmailText.swift; path = iOSValidateEmail/Classes/UIText/ValidateEmailText.swift; sourceTree = "<group>"; };
 		DE2B9BD33563AE91F02E04B233CB5FF3 /* Pods-iOSValidateEmail_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOSValidateEmail_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		F2727058E95D25B4D864FA66BB2B45F8 /* Pods-iOSValidateEmail_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-iOSValidateEmail_Example.modulemap"; sourceTree = "<group>"; };
+		F2727058E95D25B4D864FA66BB2B45F8 /* Pods-iOSValidateEmail_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-iOSValidateEmail_Example.modulemap"; sourceTree = "<group>"; };
 		FB58F8BF6E7B8380B62C1DB01B76A7CC /* Pods-iOSValidateEmail_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iOSValidateEmail_Tests-resources.sh"; sourceTree = "<group>"; };
 		FB6DA5ABD60BB3E0D5568572AEB4B9FC /* Pods-iOSValidateEmail_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iOSValidateEmail_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -95,7 +95,7 @@
 		06711598647EB172FD743DAC957B7525 /* iOSValidateEmail */ = {
 			isa = PBXGroup;
 			children = (
-				7D136EE3BB8EE5EDF5B1FBEF76FD6B03 /* ReplaceMe.swift */,
+				DA3FBDC61F6EFE0600E536CC /* UITextField */,
 				F14E80CF389CF3B94FFEE5AC7019448F /* Support Files */,
 			);
 			name = iOSValidateEmail;
@@ -190,6 +190,14 @@
 			);
 			name = "Pods-iOSValidateEmail_Example";
 			path = "Target Support Files/Pods-iOSValidateEmail_Example";
+			sourceTree = "<group>";
+		};
+		DA3FBDC61F6EFE0600E536CC /* UITextField */ = {
+			isa = PBXGroup;
+			children = (
+				DA3FBDC71F6EFE6300E536CC /* ValidateEmailText.swift */,
+			);
+			name = UITextField;
 			sourceTree = "<group>";
 		};
 		F14E80CF389CF3B94FFEE5AC7019448F /* Support Files */ = {
@@ -296,6 +304,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					69A474644497DE53648D04112BC6E780 = {
+						LastSwiftMigration = 0830;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -330,7 +343,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0913FF73B11FAD5453F75161D476476A /* iOSValidateEmail-dummy.m in Sources */,
-				E9E58069DBB9A8026274336F1C431418 /* ReplaceMe.swift in Sources */,
+				DA3FBDC81F6EFE6300E536CC /* ValidateEmailText.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,6 +490,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 05D3F9B10F815917B5770ECD26C83E66 /* iOSValidateEmail.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -561,6 +575,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 05D3F9B10F815917B5770ECD26C83E66 /* iOSValidateEmail.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
