@@ -25,7 +25,7 @@ A simple email validation function for iOS apps for iOS class.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'ddavignon' => 'ddavignon@csumb.edu' }
-  s.source           = { :git => 'https://github.com/ddavignon/iOSValidateEmail.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/ddavignon/iOSValidateEmail.git', :tag => 0.1.2 }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
