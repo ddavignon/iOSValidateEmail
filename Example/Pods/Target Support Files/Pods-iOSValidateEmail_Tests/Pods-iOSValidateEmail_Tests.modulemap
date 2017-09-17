@@ -1,0 +1,6 @@
+framework module Pods_iOSValidateEmail_Tests {
+  umbrella header "Pods-iOSValidateEmail_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

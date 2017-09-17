@@ -1,0 +1,6 @@
+framework module iOSValidateEmail {
+  umbrella header "iOSValidateEmail-umbrella.h"
+
+  export *
+  module * { export * }
+}
