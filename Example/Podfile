@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'iOSValidateEmail_Example' do
+  pod 'iOSValidateEmail', :path => '../'
+
+  target 'iOSValidateEmail_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
