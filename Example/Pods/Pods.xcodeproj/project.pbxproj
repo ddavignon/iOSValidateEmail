@@ -95,7 +95,7 @@
 		06711598647EB172FD743DAC957B7525 /* iOSValidateEmail */ = {
 			isa = PBXGroup;
 			children = (
-				DA3FBDCB1F6F450E00E536CC /* Classes */,
+				DA3FBDC61F6EFE0600E536CC /* UITextField */,
 				F14E80CF389CF3B94FFEE5AC7019448F /* Support Files */,
 			);
 			name = iOSValidateEmail;
@@ -198,14 +198,6 @@
 				DA3FBDC71F6EFE6300E536CC /* ValidateEmailText.swift */,
 			);
 			name = UITextField;
-			sourceTree = "<group>";
-		};
-		DA3FBDCB1F6F450E00E536CC /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				DA3FBDC61F6EFE0600E536CC /* UITextField */,
-			);
-			name = Classes;
 			sourceTree = "<group>";
 		};
 		F14E80CF389CF3B94FFEE5AC7019448F /* Support Files */ = {
